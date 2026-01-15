@@ -1,5 +1,7 @@
 📖 Real-Time Chat Application
+
 A real-time chat application built with Flask and Flask-SocketIO, designed to support multiple chat rooms, private messaging, and dynamic user management.
+
 ----------
 
 ✨ Features
