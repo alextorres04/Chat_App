@@ -65,14 +65,14 @@ REAL_TIME_CHAT/
    http://127.0.0.1:5000
 ----------------
 💻 Usage
-On entry, you are assigned a guest username automatically.
+   On entry, you are assigned a guest username automatically.
 
-Select a room from the sidebar.
+   Select a room from the sidebar.
 
-Type messages in the input field.
+   Type messages in the input field.
 
-To send a private message:
-  @Username Hello, this is a private message
+   To send a private message:
+     @Username Hello, this is a private message
 -----------------
 🔒 Security Notes
 Active users are stored in memory (active_users dict).
@@ -82,15 +82,17 @@ For production, use Redis or another distributed storage solution.
 Configure SECRET_KEY and CORS_ORIGINS via environment variables.
 ---------------
 🚀 Future Improvements
-User authentication and registration.
 
-Persistent message storage in a database.
+   - User authentication and registration.
+   
+   - Persistent message storage in a database.
+   
+   - File and media sharing support.
+   
+   - Push notifications.
+   
+   - Deployment with Docker/Kubernetes.
 
-File and media sharing support.
-
-Push notifications.
-
-Deployment with Docker/Kubernetes.
 ----------------
 ## 📜 License
 This project is licensed under the MIT License.  
