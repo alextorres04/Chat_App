@@ -1,6 +1,7 @@
 📖 Real-Time Chat Application
 A real-time chat application built with Flask and Flask-SocketIO, designed to support multiple chat rooms, private messaging, and dynamic user management.
 ----------
+
 ✨ Features
 Guest authentication: users are automatically assigned a unique guest username (GuestXXXX).
 
@@ -15,6 +16,7 @@ Active users list: dynamically updated in real time.
 System notifications: automatic messages when users join or leave rooms.
 
 Modern frontend: responsive interface built with HTML, CSS, and JavaScript.
+
 -----------
 🛠️ Tech Stack
 Backend: Python 3, Flask, Flask-SocketIO, Werkzeug ProxyFix
@@ -45,6 +47,7 @@ REAL_TIME_CHAT/
 └── README.md
 
 -----------
+
 ⚙️ Installation & Setup
 1. Clone the repository:
    git clone https://github.com/yourusername/real-time-chat.git
@@ -63,6 +66,7 @@ REAL_TIME_CHAT/
 
 5. Open in your browser:
    http://127.0.0.1:5000
+   
 ----------------
 💻 Usage
    On entry, you are assigned a guest username automatically.
@@ -73,13 +77,16 @@ REAL_TIME_CHAT/
 
    To send a private message:
      @Username Hello, this is a private message
+     
 -----------------
 🔒 Security Notes
-Active users are stored in memory (active_users dict).
 
-For production, use Redis or another distributed storage solution.
+   Active users are stored in memory (active_users dict).
+   
+   For production, use Redis or another distributed storage solution.
+   
+   Configure SECRET_KEY and CORS_ORIGINS via environment variables.
 
-Configure SECRET_KEY and CORS_ORIGINS via environment variables.
 ---------------
 🚀 Future Improvements
 
