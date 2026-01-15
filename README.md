@@ -18,6 +18,7 @@ System notifications: automatic messages when users join or leave rooms.
 Modern frontend: responsive interface built with HTML, CSS, and JavaScript.
 
 -----------
+
 🛠️ Tech Stack
 Backend: Python 3, Flask, Flask-SocketIO, Werkzeug ProxyFix
 
@@ -26,6 +27,7 @@ Frontend: HTML5, CSS3, Vanilla JavaScript
 Real-time communication: WebSockets via Socket.IO
 
 Logging: Python logging for event monitoring
+
 --------------
 📂 Project Structure
 REAL_TIME_CHAT/
@@ -49,6 +51,7 @@ REAL_TIME_CHAT/
 -----------
 
 ⚙️ Installation & Setup
+
 1. Clone the repository:
    git clone https://github.com/yourusername/real-time-chat.git
   cd real-time-chat/chat_app
@@ -68,7 +71,9 @@ REAL_TIME_CHAT/
    http://127.0.0.1:5000
    
 ----------------
+
 💻 Usage
+
    On entry, you are assigned a guest username automatically.
 
    Select a room from the sidebar.
@@ -79,6 +84,7 @@ REAL_TIME_CHAT/
      @Username Hello, this is a private message
      
 -----------------
+
 🔒 Security Notes
 
    Active users are stored in memory (active_users dict).
@@ -88,6 +94,7 @@ REAL_TIME_CHAT/
    Configure SECRET_KEY and CORS_ORIGINS via environment variables.
 
 ---------------
+
 🚀 Future Improvements
 
    - User authentication and registration.
@@ -101,6 +108,7 @@ REAL_TIME_CHAT/
    - Deployment with Docker/Kubernetes.
 
 ----------------
+
 ## 📜 License
 This project is licensed under the MIT License.  
 You are free to use, modify, and distribute this software with proper attribution.
